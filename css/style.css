@@ -1,0 +1,139 @@
+/* -------------- NAVBAR ------------------ */
+
+body {
+    overflow-x: hidden;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    /*font-weight: bold;*/
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(238, 239, 237);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+#navbar-main {
+    transition: margin-left .5s;
+    transition: visibility 1s;
+    padding: 16px;
+    height: 100px;
+    /*margin-bottom: 50px;*/
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+body {
+    transition: 0.5s;
+}
+
+#brand_logo {
+    width: 160px;
+    height: 50px;
+    margin-left: 40%;
+}
+
+.search-icon {
+    float: right;
+    margin-top: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+/* ------------------ END OF NAVBAR ------------------ */
+
+/* ------------------ INDEX ------------------ */
+.banner-caption {
+    margin-top: 5%;
+}
+.banner-caption > h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 65px;
+    color: rgb(68, 68, 68);
+}
+
+.banner-caption > h2 {
+    margin-left: 30%;
+    margin-top: 0;
+}
+
+.banner-btn {
+    margin-left: 43%;
+    width: 100px;
+    background-color: rgb(139, 87, 58);
+}
+
+.banner-btn:hover {
+    background-color: white;
+}
+
+.banner-container {
+    height: 90vh;
+    /*background-color: #dfe3ee;*/
+}
+
+.banner-container h1 {
+    margin-left: 25%;
+    margin-top: 0;
+}
+
+.banner-container h3 {
+    margin-left: 35%;
+    margin-top: 0;
+}
+
+#banner-image {
+    width: 50%;
+    height: 50%;
+}
+
+.banner-container2 {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.banner-container2 img {
+    width: 250px;
+}
+
+#banner-image-shoes, #banner-image-watch {
+    height: 270px;
+    width: 280px;
+    margin-top: 20px;
+}
+
+.banner-container2 h3 {
+    margin-left: 27%;
+}
